@@ -1,0 +1,203 @@
+
+.container{
+    position:relative;
+    width:100vw;
+    height:300vh;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+}
+
+.container .content{
+    width:50%;
+    height:400px;
+    background-color:rgb(236, 226, 226);
+    border-radius:10px;
+    margin-top:100px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+
+.container .content .hqimage{
+    flex:1;
+    height:100%;
+    padding-right:20px;
+    margin-top:100px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content:flex-start;
+}
+
+.container .content .hqimage p{
+    width: 50%;
+    height:20px;
+    margin-top:20px;
+    font-size:12pt;
+    font-family: monospace;
+}
+
+.container .content .info{
+    flex:1;
+    height:100%;
+    font-size:12pt;
+    font-family:'Bebas Neue',cursive;
+    line-height:2rem;
+    letter-spacing: 2px;
+    color:black;
+    margin-left:50px;
+    margin-top:50px;
+}
+
+.container .content .info span{
+    font-family:monospace;
+}
+
+.container .content .info .fas{
+    margin-top:30px;
+    margin-right:50px;
+    font-size:16pt;
+}
+
+.container .content .info .barcode{
+    display:flex;
+    flex-direction:column;
+}
+
+.container .content .info .code{
+    font-family:monospace;
+    font-size:10pt;
+    letter-spacing:-1px;
+    margin-top:-5px;
+    margin-bottom:-10px;
+
+}
+
+.container .content .info .fa-barcode{
+    margin-top:-10px;
+    font-size:7rem;
+}
+
+.container .posts-container{
+    width:60%;
+    height:100%;
+    padding-top:20px;
+}
+
+.container .posts-container .form{
+    height:200px;
+    width:90%;
+}
+
+.container .posts-container .form-posts .textarea{
+    border-radius:10px;
+    margin-top:40px;
+    margin-left:60px;
+    border-width:2px;
+}
+
+.container .posts-container .form-posts .btn{
+    width:100px;
+    height:40px;
+    margin:30px 80px;
+    border-radius:5px;
+    border:none;
+    background-color:red;
+    font-family:'Bebas Neue',cursive;
+    font-size:12.5pt;
+    letter-spacing:2px;
+    color:white;
+    cursor:pointer;
+}
+
+
+.container .posts-container .post{
+    width:600px;
+    height:250px;
+    margin:50px 50px;
+    border-radius:5px;
+    background-color:rgb(241, 235, 235);
+    padding:40px 30px;
+}
+
+.container .posts-container .post .header{
+    width:100%;
+    height:30px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    font-size:12.5pt;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.container .posts-container .post .header span{
+    font-size:10pt;
+    color:gray;
+    margin-left:30px;
+}
+
+.container .posts-container .post .postbody{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:11.5pt;
+    margin:20px 10px;
+}
+
+.container .posts-container .post .buttons{
+    width:100%;
+    height:40px;
+    display:flex;
+    flex-direction:row;
+}
+
+.container .posts-container .post .buttons .likeform,
+.container .posts-container .post .buttons .unlikeform{
+    margin-left:5px;
+    margin-top:20px;
+    width:40px;
+    height:50px;
+}
+
+
+.container .posts-container .post .buttons .likeform .likebtn,
+.container .posts-container .post .buttons .unlikeform .unlikebtn{
+    border:none;
+    background-color:transparent;
+    color:rgb(91, 91, 243);
+    font-size:11pt;
+    cursor:pointer;
+}
+
+.container .posts-container .post .buttons .deleteform{
+    margin-left:300px;
+    width:100px;
+    height:50px;
+}
+
+.container .posts-container .post .countlikes{
+    margin-top:20px;
+    margin-left:15px;
+}
+
+.container .posts-container .post .buttons .deletebtn{
+    border:none;
+    background-color:transparent;
+    color:rgb(238, 76, 76);
+    font-size:11pt;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
