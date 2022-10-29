@@ -12,7 +12,7 @@ class ComicController extends Controller
     public $result;
 
     public function displayComic(){
-        $id = $_GET['id'];
+        $id = Request::get('id');
         $resources = '?ts=1637415463888&apikey=86091d5eb5be705cd3eaa31be1dce3f8&hash=23f98cb5d565a5ce7cb75828739e4bd0';
         $url = 'http://gateway.marvel.com/v1/public/comics/'.$id.$resources;
         $response = Http::get($url)->json();
